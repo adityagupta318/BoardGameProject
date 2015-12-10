@@ -13,4 +13,5 @@ from .serializers import GameSerializer
 class GameViewSet(viewsets.ModelViewSet):
     # this fetches all the rows of data in the Fish table
     queryset = Game.objects.all()
+    # Some change in branch 2
     serializer_class = GameSerializer
